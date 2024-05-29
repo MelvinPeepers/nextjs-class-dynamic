@@ -1,3 +1,5 @@
+import React from "react";
+
 export default async function BlogPage(props) {
   const res = await fetch(
     `https://jsonplaceholder.typicode.com/posts/${props.params.slug}`
